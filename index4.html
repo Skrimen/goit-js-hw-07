@@ -3,34 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .gallery {
-      display: flex;
-      list-style: none;
-      padding: 0;
-    }
-
-    .gallery-item {
-      margin: 10px;
-    }
-
-    .gallery-item img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-  </style>
-  <title>Image Gallery</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
+  
+  
   <title>Homework 1</title>
 </head>
   <body>
-    <ul class="gallery"></ul>
+    <form class="login-form" onsubmit="submitForm(event)">
+      <label>
+        Email
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" />
+      </label>
+      <button type="submit">Log in</button>
+    </form>
+<script src="./js/task-4.js"></script>
 
-<script src="./js/task-2.js"></script>
 </body>
 </html>
